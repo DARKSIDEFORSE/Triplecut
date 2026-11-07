@@ -1,0 +1,6 @@
+{
+  "name": "TripleCut - Видеомонтаж трех потоков",
+  "description": "Локальное приложение для монтажа трех видео (Main, Filler, Popup) в один MP4 в стиле Apple Liquid Glass",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
