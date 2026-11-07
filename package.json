@@ -36,12 +36,12 @@
     "typescript": "^7.0.2",
     "@types/express": "^4.17.21"
   },
-  "description": "TripleCut — монтаж трёх видео в один MP4",
-  "author": "TripleCut",
+  "description": "Triplecut — монтаж трёх видео в один MP4",
+  "author": "Triplecut",
   "main": "electron/main.cjs",
   "build": {
     "appId": "com.triplecut.app",
-    "productName": "TripleCut",
+    "productName": "Triplecut",
     "directories": {
       "output": "release",
       "buildResources": "build"
@@ -67,8 +67,8 @@
       "perMachine": false,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "TripleCut",
-      "artifactName": "TripleCut-Setup-${version}.exe",
+      "shortcutName": "Triplecut",
+      "artifactName": "Triplecut-Setup-${version}.exe",
       "language": "1049"
     }
   }

@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo === TripleCut: сборка установщика для Windows x64 ===
+echo === Triplecut: сборка установщика для Windows x64 ===
 where node >nul 2>nul || (echo Установите Node.js LTS с https://nodejs.org и запустите снова & pause & exit /b 1)
 call npm install || goto :err
 call npm install --save-dev electron electron-builder || goto :err
